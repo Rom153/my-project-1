@@ -1,0 +1,36 @@
+#block {
+    width: 100px;
+    height: 100px;
+    background: silver;
+    animation-name: block;
+    animation-duration: 3s;
+    animation-delay: 0.2s; /*время задержки*/
+    animation-iteration-count: 3; /*infinite постоянно, сколько раз делается анимация*/
+    animation-direction: alternate; /*эффекты сейчас стоит маятник*/
+}
+
+#coolAnimation {
+    width: 100px;
+    height: 100px;
+    background: silver;
+    animation-name: coolAnimation;
+    animation-duration: 10s;
+    animation-delay: 0.2s; /*время задержки*/
+    animation-iteration-count: 3; /*infinite постоянно, сколько раз делается анимация*/
+    animation-direction: alternate; /*эффекты сейчас стоит маятник*/
+}
+
+
+@keyframes coolAnimation {
+    0% {border-radius: 0px;}
+    /*10% {border-radius: 10px;}
+    40% {border-radius: 50px;}
+    63% {background: #113492;}
+    70% {border-radius: 80px;}*/
+    100% {border-radius: 10px;}
+}
+
+@keyframes block {
+    from {background: silver}
+    to {background: #2dff03;}
+}

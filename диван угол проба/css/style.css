@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    background: white;
+    color: #000;
+}
+
+header {
+    width: 100%;
+    background: #f8f8f8;
+    box-shadow: 2px 4px 6px 0px rgba(194, 192, 192, 0.25);
+    padding-top: 10px;
+    padding: 20px 0;
+    float: left;
+}
+
+header .all-headr {
+    width: 80%;
+    margin: 0 10%;
+}
+
+header .all-headr .lang {
+    text-align: right;
+    width: 100%;
+}
+
+header .all-headr .lang a {
+    font-size: 14px;
+    color: #C4C4C4;
+    font-weight: 600;
+}
+
+header .all-headr .lang a.active,
+header .all-headr .lang a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+    margin-left: 5px;
+}
+
+header .all-headr .headr-main {
+    width: 100%;
+    margin-top: 20px;
+}
+
+header .all-headr .headr-main img {
+    height: 50px;
+    float: left;
+}
+
+#search {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 0;
+    background: #ECECEC;
+    width: 300px;
+    height: 44px;
+    font-weight: lighter;
+    font-size: 15px;
+    text-indent: 15px;
+    outline: none;
+    color: beige;
+}
+
+header .all-headr .headr-main a {
+    float: left;
+    color: #000;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+header .all-headr .headr-main a:hover {color: cadetblue}
+
+header .all-headr .headr-main .btn {
+    cursor: pointer;
+    float: right;
+    margin-left: 15px;
+    width: 86px;
+    height: 40px;
+    font-weight: 600;
+    border: 2px solid #3200a7;
+    text-align: center;
+    line-height: 40px;
+}
+
+header .all-headr .headr-main .btn.reg {width: 140px}
+
+header .all-headr .headr-main .btn.reg,
+header .all-headr .headr-main .btn.auth:hover {
+    background: #000;
+    color: #fff;
+}
+
+header .all-headr .headr-main .btn.reg:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Основная часть сайта */
+
+h1 {text-align: center}
+
+main {
+    float: left;
+    width: 100%;
+}
+
+main .section {
+    float: left;
+    width: 80%;
+    margin: 50px 10%;
+}
+
+main .section p {font-size: 24px;}
+
+main .section p span {
+    height: 2px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 40px;
+    margin-bottom: 7px;
+    width: 30px;
+    background: #000;
+}
+
+main .section .img-blok {
+    width: 40%;
+    margin: 20px 0;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+main .section .img-blok:not(:last-of-type) {
+    margin-right: 12%;
+}
+
+main .section .img-blok img {height: 210px}
+
+main .section .img-blok h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+main .section .img-blok:hover .botton-play {display: block;}
+
+main .section .img-blok .botton-play {
+    background-color: #000;
+    color: yellow;
+    padding: 25px;
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    display: none;
+}
+
+/* Футер сайта */
+
+footer {
+    width: 100%;
+    float: left;
+    background: #f8f8f8;
+    color: #ECECEC;
+    text-align: center;
+    padding: 70px 0;    
+}
+
